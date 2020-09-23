@@ -16,6 +16,7 @@ import Stylesheet from './components/Stylesheet';
 import './components/appStyles.css'
 import styles from './components/appStyles.module.css'
 import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
 function App() {
   return (
     <div className="App">
@@ -41,7 +42,8 @@ function App() {
       {/* <UserGreeting /> */}
       {/* <NameList /> */}
       {/* <Stylesheet primary={true}/> */}
-      <Form />
+      {/* <Form /> */}
+      <LifeCycleA />
     </div>
   );
 }
