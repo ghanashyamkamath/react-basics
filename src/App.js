@@ -17,6 +17,7 @@ import './components/appStyles.css'
 import styles from './components/appStyles.module.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import FragementsDemo from './components/FragementsDemo';
 function App() {
   return (
     <div className="App">
@@ -43,7 +44,8 @@ function App() {
       {/* <NameList /> */}
       {/* <Stylesheet primary={true}/> */}
       {/* <Form /> */}
-      <LifeCycleA />
+      {/* <LifeCycleA /> */}
+      <FragementsDemo />
     </div>
   );
 }
