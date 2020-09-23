@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Greet=(props)=> {
+const Greet=({name})=> {
     return (
         <div>
-            <h1>{props.name}</h1>
-            {props.children}
+            <h1>{name}</h1>
+            
         </div>
     )
 }
