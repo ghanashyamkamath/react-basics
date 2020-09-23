@@ -3,23 +3,13 @@ import React from 'react'
 function NameList() {
 
     // const names = ['bruce' ,'clark','diana']
-    const persons = [
-      {
-        id: 1,
-        name: "ghanashyam",
-        age: "30",
-      },
-      {
-        id: 2,
-        name: "kiran",
-        age: "20",
-      },
-      {
-        id: 3,
-        name: "manu",
-        age: "40",
-      },
-    ];
+    const names = ['Bruce','clark','diana'];
+    const nameList = names.map((name,index) => (
+      <h2 key={index}>
+          {index}.{name} 
+      </h2>
+    ));
+
     
     return (
       <div>
@@ -27,9 +17,7 @@ function NameList() {
         <h2>{names[1]}</h2>
         <h2>{names[2]}</h2> */}
 
-        {
-            persons.map((person,key) => <h2 key={person.id}>{person.name} with {person.age}</h2>)
-        }
+        {nameList}
       </div>
     );
 }
