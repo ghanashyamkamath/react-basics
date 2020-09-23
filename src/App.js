@@ -4,17 +4,21 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
 function App() {
   return (
     <div className="App">
-      <Greet name="ghanashyam" >
+      {/* <Greet name="ghanashyam" >
       this is child prop
       </Greet>
       <Greet name="kiran" />
-      <Greet name="manu" />
+      <Greet name="manu" /> */}
 
-      {/* <Welcome /> */}
+      {/* <Welcome name="ghanashyam" />
+      <Welcome name="Kiran" />
+      <Welcome name="Manu" /> */}
       {/* <Hello /> */}
+      <Message />
     </div>
   );
 }
