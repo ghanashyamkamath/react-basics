@@ -18,6 +18,8 @@ import styles from './components/appStyles.module.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import FragementsDemo from './components/FragementsDemo';
+import PureComp from './components/PureComp';
+import ParentComponentssss from './components/ParentComponentssss';
 function App() {
   return (
     <div className="App">
@@ -45,7 +47,8 @@ function App() {
       {/* <Stylesheet primary={true}/> */}
       {/* <Form /> */}
       {/* <LifeCycleA /> */}
-      <FragementsDemo />
+      {/* <FragementsDemo /> */}
+      <ParentComponentssss />
     </div>
   );
 }
