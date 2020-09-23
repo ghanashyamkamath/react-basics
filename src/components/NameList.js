@@ -28,7 +28,7 @@ function NameList() {
         <h2>{names[2]}</h2> */}
 
         {
-            persons.map(person => <h2>{person.name} with {person.age}</h2>)
+            persons.map((person,key) => <h2 key={person.id}>{person.name} with {person.age}</h2>)
         }
       </div>
     );
