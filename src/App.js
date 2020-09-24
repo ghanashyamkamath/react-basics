@@ -23,6 +23,8 @@ import ParentComponentssss from './components/ParentComponentssss';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParent from './components/FRParent';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 function App() {
   return (
     <div className="App">
@@ -54,7 +56,9 @@ function App() {
       {/* <ParentComponentssss /> */}
       {/* <RefsDemo /> */}
       {/* <FocusInput /> */}
-      <FRParent />
+      {/* <FRParent /> */}
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
