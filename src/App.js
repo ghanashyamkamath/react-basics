@@ -20,6 +20,7 @@ import LifeCycleA from './components/LifeCycleA';
 import FragementsDemo from './components/FragementsDemo';
 import PureComp from './components/PureComp';
 import ParentComponentssss from './components/ParentComponentssss';
+import RefsDemo from './components/RefsDemo';
 function App() {
   return (
     <div className="App">
@@ -49,6 +50,7 @@ function App() {
       {/* <LifeCycleA /> */}
       {/* <FragementsDemo /> */}
       {/* <ParentComponentssss /> */}
+      <RefsDemo />
     </div>
   );
 }
