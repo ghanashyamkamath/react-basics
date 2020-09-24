@@ -25,6 +25,10 @@ import FocusInput from './components/FocusInput';
 import FRParent from './components/FRParent';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import User from './components/User';
+import Count from './components/Count';
 function App() {
   return (
     <div className="App">
@@ -57,8 +61,29 @@ function App() {
       {/* <RefsDemo /> */}
       {/* <FocusInput /> */}
       {/* <FRParent /> */}
-      <ClickCounter />
-      <HoverCounter />
+      {/* <ClickCounter />
+      <HoverCounter /> */}
+
+      <Count
+        render={(count, incrementCount) => (
+          <ClickCounterTwo
+            count={count}
+            incrementCount={incrementCount}
+          ></ClickCounterTwo>
+        )}
+      />
+      <Count
+        render={(count, incrementCount) => (
+          <HoverCounterTwo
+            count={count}
+            incrementCount={incrementCount}
+          ></HoverCounterTwo>
+        )}
+      />
+
+      {/* <ClickCounterTwo />
+      <HoverCounterTwo />
+      <User render={ (isLoggedIn) => isLoggedIn ? 'Ghanashyam' : 'Guest' }/> */}
     </div>
   );
 }
