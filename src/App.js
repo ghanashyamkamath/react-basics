@@ -21,6 +21,7 @@ import FragementsDemo from './components/FragementsDemo';
 import PureComp from './components/PureComp';
 import ParentComponentssss from './components/ParentComponentssss';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 function App() {
   return (
     <div className="App">
@@ -50,7 +51,8 @@ function App() {
       {/* <LifeCycleA /> */}
       {/* <FragementsDemo /> */}
       {/* <ParentComponentssss /> */}
-      <RefsDemo />
+      {/* <RefsDemo /> */}
+      <FocusInput />
     </div>
   );
 }
